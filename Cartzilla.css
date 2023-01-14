@@ -1,0 +1,73 @@
+        .displayimages
+        {
+            height: 100px;
+            width: 100px;
+            margin-left: 20px;
+        }
+        .nav-link
+        {
+            color:black;
+        }
+        h4 {
+      margin-top: 150px;
+        }
+
+        .card-link
+        {
+          color: black;
+          text-decoration: none;
+          text-align: center;
+        }
+        input[type=search]
+        {
+        height: 30px;
+        width: 30px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        background-image: url('img/search.jfif');
+        background-repeat: no-repeat;
+        background-position: -0.5px;
+        transition: width 1s;
+        }
+        input[type=search]:focus
+        {
+            width: 500px;
+            background-position: 450px;
+        }
+        a{
+          text-decoration: none;
+          color: black;
+        }
+        .fa-solid {
+      color: #fea569;
+         }
+        .fa{
+          color: #aeb4be;
+        }
+        .scroll {
+          overflow: auto;
+          white-space: nowrap;
+          width: 1200px;
+          background-color: #f6f9fc;
+        }
+    
+        .scroll a {
+          display: inline;
+          padding-left: 20px;
+        }
+
+        .dropdown-menu
+        {
+          display: none;
+        }
+
+        .dropdown-toggle:hover + #dropdown-menu
+        {
+          display: block;
+        }
+
+        .a:hover + .dropdown-menu
+        {
+          display: block;
+        }

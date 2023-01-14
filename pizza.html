@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartzilla | Food Delivery Service</title>
+  <link rel="shortcut icon" href="img/Favicon.ico" type="image/ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+  <script src="https://kit.fontawesome.com/aa0d3b6785.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="Cartzilla.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo-dark.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Location Dropdown -->
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt"
+                viewBox="0 0 16 16">
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+              </svg> Pune
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Shivajinagar</a></li>
+              <li><a class="dropdown-item" href="#">Sinhagad Road</a></li>
+              <li><a class="dropdown-item" href="#">Karve Nagar</a></li>
+              <li><a class="dropdown-item" href="#">Kondhwa</a></li>
+              <li><a class="dropdown-item" href="#">Koregaon Park</a></li>
+              <li><a class="dropdown-item" href="#">Hadapsar</a></li>
+            </ul>
+          </li>
+          <!-- Menu Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Cuisine </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="d-flex bd-highlight flex-row mb-3">
+                <div class="p-2 bd-highlight"><a class="dropdown-item" href="#"><img src="img/burger.svg" alt=""
+                      class="displayimages"><br>
+                    <p>Burgers & Fries</p>
+                  </a></div>
+                <div class="p-2 bd-highlight"><a class="dropdown-item" href="#"><img src="img/noodles.svg" alt=""
+                      class="displayimages"><br>
+                    <p>Noodles</p>
+                  </a></div>
+                <div class="p-2 bd-highlight"><a class="dropdown-item" href="#"><img src="img/pizza.svg" alt=""
+                      class="displayimages"><br>
+                    <p>Pizza & Pasta</p>
+                  </a></div>
+              </div>
+
+              <div class="d-flex bd-highlight flex-row mb-3">
+                <div class="p-2 bd-highlight"><a class="dropdown-item" href="#"><img src="img/steak.svg" alt=""
+                      class="displayimages"><br>
+                    <p>Grills & Steaks</p>
+                  </a></div>
+                <div class="p-2 bd-highlight"><a class="dropdown-item" href="#"><img src="img/fish.svg" alt=""
+                      class="displayimages"><br>
+                    <p>Fish & Seafood</p>
+                  </a></div>
+                <div class="p-2 bd-highlight"><a class="dropdown-item" href="#"><img src="img/healthy.svg" alt=""
+                      class="displayimages"><br>
+                    <p>Healthy Food</p>
+                  </a></div>
+              </div>
+
+              <div class="d-flex bd-highlight flex-row mb-3">
+                <div class="p-2 bd-highlight"><a class="dropdown-item" href="#"><img src="img/cuisine.svg" alt=""
+                      class="displayimages"><br>
+                    <p>Haute Cuisine</p>
+                  </a></div>
+                <div class="p-2 bd-highlight"><a class="dropdown-item" href="#"><img src="img/chicken.svg" alt=""
+                      class="displayimages"><br>
+                    <p>Chicken & Snacks</p>
+                  </a></div>
+                <div class="p-2 bd-highlight"><a class="dropdown-item" href="#"><img src="img/coffee.svg" alt=""
+                      class="displayimages"><br>
+                    <p>Coffee & Desserts</p>
+                  </a></div>
+              </div>
+            </ul>
+          </li>
+        </ul>
+        <!-- Icons -->
+        <ul class="d-flex navbar-nav">
+          <li class="nav-item">
+            <a class="navlink" href="#">
+              <input type="search" placeholder="      What do you need?">
+            </a>
+          </li>&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="navlink" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+              </svg>
+            </a>
+          </li>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+              </svg><span></span>
+
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart Items</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <div class="subtotal"></div>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         <a href="cart.html"><button type="button" class="btn btn-success text-white">Order</button>
+         </a>
+      </div>
+    </div>
+  </div>
+</div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Title -->
+  <div class="d-flex flex-row bd-highlight bg-dark align-items-center position-relative bottom-50">
+    <div class="p-2 bd-highlight">
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="Cartzilla.html" class="text-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="white" class="bi bi-house-door" viewBox="0 0 16 16">
+                <path
+                  d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z" />
+              </svg>&nbsp; Home
+            </a>
+          </li>
+          <li class="breadcrumb-item text-light" aria-current="page">All Categories</li>
+          <li class="breadcrumb-item text-light" aria-current="page">Domino's Pizza</li>
+        </ol><br>
+        <h1 class="text-white fw-bold">Domino's Pizza</h1>
+      </nav>
+    </div>
+    <div class="p-2 bd-highlight ms-auto"><img src="img/pizz.png" alt=""></div>
+  </div>
+  <!-- Navbar-Pizza -->
+  <nav class="navbar shadow navbar-expand-lg navbar-white bg-white position-absolute top-50 start-50 translate-middle"
+    style="width: 1100px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/d02.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Pizza</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Sides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Drinks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dessert</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br><br><br><br><br><br>
+  <h1 class="text-center">Pizza</h1><br><br>
+
+  <!-- Menu Grid -->
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-4 g-4">
+      <br>
+      </div><br>
+    
+      <!-- Range -->
+    <div class="d-flex flex-row bd-highlight mb-3 align-items-center">
+    <div class="p-2 bd-highlight"><h6 class="text-muted">Showing 8 of 24 items</h6></div>
+    <div class="p-2 bd-highlight flex-grow-1"><div class="progress" style="height: 5px;width: 250px;">
+      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+     </div></div>
+     <div class="p-2 bd-highlight"><button type="button" class="btn btn-outline-light text-muted">Load more items</button></div>
+   </div>
+  </div>
+
+<!-- Footer -->
+<div class="d-flex flex-row bd-highlight bg-dark justify-content-evenly">
+  <div class="p-2 bd-highlight">
+    <h2 class="text-white">Cartzilla<sup>TM</sup></h2>
+    <div class="dropdown">
+      <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        <img src="img/en.png" alt=""> Eng/$
+      </button><br><br>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li>
+          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option value="0">$ USD</option>
+            <option value="1">€ EUR</option>
+            <option value="2">£ UKP</option>
+            <option value="3">Ұ JPY</option>
+          </select>
+        </li>
+        <li><a class="dropdown-item" href="#"><img src="img/fr.png" alt=""> Francias</a></li>
+        <li><a class="dropdown-item" href="#"><img src="img/de.png" alt=""> Deutsch</a></li>
+        <li><a class="dropdown-item" href="#"><img src="img/it.png" alt=""> Italiano</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="p-2 bd-highlight">
+    <h2 class="text-white">Join us</h2>
+    <a href="#" class="text-muted">Careers</a><br>
+    <a href="#" class="text-muted">Restaurants</a><br>
+    <a href="#" class="text-muted">Become a Courier</a><br>
+    <a href="#" class="text-muted">About</a><br>
+  </div>
+  <div class="p-2 bd-highlight">
+    <h2 class="text-white">Let us help you</h2>
+    <a href="#" class="text-muted">Help Center</a><br>
+    <a href="#" class="text-muted">Support</a><br>
+    <a href="#" class="text-muted">Contact</a><br>
+  </div>
+  <div class="p-2 bd-highlight">
+    <h2 class="text-white">Follow us</h2>
+    <a href="#" class="text-muted">Facebook</a><br>
+    <a href="#" class="text-muted">Twitter</a><br>
+    <a href="#" class="text-muted">Instagram</a><br>
+  </div>
+
+  <div class="p-2 bd-highlight" style="color: white;">
+    <h5>Download our app</h5>
+    <button type="button" class="btn  btn-dark btn-outline-secondary"><img height="30px" width="25px"
+        src="img/apple.png" alt=""><small> &nbsp;Download on the </small> <br>App Store </button> &nbsp; &nbsp;
+    <button type="button" class="btn  btn-dark btn-outline-secondary"><img height="25px" width="25px"
+        src="img/and.png" alt=""><small> &nbsp;Download on the </small> <br>Google Play </button>
+  </div>
+</div>
+  </div>
+</body>
+
+</html>
+<script src="products.js"></script>
+<!-- script for tool tip -->
+<script></script>
